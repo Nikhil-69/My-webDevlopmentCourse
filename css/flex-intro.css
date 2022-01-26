@@ -1,0 +1,35 @@
+#container{
+    height: 75vh;
+    width: 75vw;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+#container div{
+    height: 200px;
+    width: 200px;
+}
+#div1{
+    background: red;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#div2{
+    background: pink;
+    flex-grow: 1;
+    flex-shrink: 1;
+    order:2;
+}
+#div3{
+    background: olive;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#div4{
+    background: lightgrey;
+    flex-grow: 1;
+    flex-shrink: 8;
+    order:-1;
+}

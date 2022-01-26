@@ -1,0 +1,39 @@
+*{margin: 0;
+padding: 0;
+background-color:lightcyan;
+}
+body{
+    margin: 50px 40%;
+}
+h1{
+    margin: 20px 0px;
+    color: blueviolet;
+}
+#inputbox{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    width: 70%;
+    height: 1.6rem;
+    font-size: 1.3rem;
+
+}
+div{
+    margin: 40px 0px;
+    background-color: #fff;
+}
+button{
+    margin-left: 50px;
+    padding: 4px;
+    border: 2px solid  blueviolet;;
+}
+li{
+    color:  blueviolet;
+    font-size: 1.3rem;
+    font-style: italic;
+    list-style-type: none;
+}
+.linethrough{
+    color: grey;
+    text-decoration: line-through;
+
+}

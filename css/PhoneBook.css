@@ -1,0 +1,40 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    background-color:
+     #79AEB2;
+}
+
+section{
+    height: 85vh;
+    width: 360px;
+    position: absolute;
+    left: 30%;
+    top: 7.5%;
+    border: 4px solid black;
+    overflow-y:scroll;
+}
+section h1{
+    text-align: Center;
+    background-color: #4A6274;
+}
+section ul{
+    margin: 30px;
+    list-style-position: inside;
+    list-style-type: none;
+
+}
+section ul h3{
+    background-color: #4A6274;
+    position: sticky;
+    top: 0px;
+}
+section ul li{
+    color: #4A6274;
+}
+
+section form { 
+    margin: 0 auto; 
+    width:150px;
+}
+

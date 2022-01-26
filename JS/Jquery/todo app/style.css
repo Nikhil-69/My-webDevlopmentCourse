@@ -1,0 +1,21 @@
+.container {
+  font-size: xx-large;
+  display: grid;
+  place-items: center;
+}
+section {
+  padding: 40px;
+  margin: 10px;
+  border: 4px solid black;
+  border-radius: 1%;
+}
+.linethrough {
+  color: grey;
+  text-decoration: line-through;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0;
+}

@@ -1,0 +1,11 @@
+*{
+    background-color: lightblue;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+#canvas{
+    background-color: black;
+    border: 10px solid dimgray;
+}

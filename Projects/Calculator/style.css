@@ -1,0 +1,33 @@
+body{
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+}
+section{
+    border: 2px solid black;
+    margin: 100px;
+    background-color: #fff;
+    border-radius: 5%;
+}
+input{
+    margin-top: 2px;
+    background-color: black;
+    color: #fff;
+    font-size: xx-large;
+    height: 60px;
+    width: 284px;
+    border-radius: 5%;
+}
+td{
+    background-color: #fff;
+    height: 60px;
+    width: 70px;
+}
+button{
+    font-size: xx-large;
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10%;
+}

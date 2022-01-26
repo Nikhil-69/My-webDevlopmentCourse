@@ -1,0 +1,11 @@
+:root{
+    --section-colour: olive;
+    --section-height: 400px;
+    --section-width:800px;
+}
+div{
+    background-color:var(--section-colour);
+    height: var(--section-height);
+    width: var(--section-width);
+    border: 4px solid black;
+}

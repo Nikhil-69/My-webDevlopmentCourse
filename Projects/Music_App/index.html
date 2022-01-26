@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f03581ef26.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Music</title>
+</head>
+
+<body>
+  <section class="main">
+    <section class="music_container">
+      <h1 class="song_name">SHAPE OF YOU</h1>
+
+      <h3 class="singer">Ed Sheeran</h3>
+
+        <img src="./Source/song1.jpeg" alt="" class="song_img">
+
+      <!-- controls -->
+
+      <div>
+        <span class="song_start">0.00</span>
+        <input type="range" name="range" class="progressBar" min="0" max="100">
+        <span class="song_end">0.00</span>
+      </div>
+      <div class="controls">
+        <button><i class="fas fa-backward" id="prev" title="Prev"></i></button>
+        <button><i class="fas fa-play" id="play" title="Play"> </i></button>
+        <button><i class="fas fa-forward" id="next" title="Next"></i></button>
+      </div>
+
+    </section>
+  </section>
+  <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+.music_container{
+    margin-top: 150px;
+    text-align:center;
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: #ffff;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.song_name{
+    margin: 1rem;
+}
+.singer{
+    margin-bottom: 2rem;
+}
+.song_img{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.progressBar{
+    margin-top: 2.5rem;
+    width: 60%;
+}
+.controls{
+    margin:auto;
+    margin-top: 1rem;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.controls button{
+    border: none;
+    background-color:white;
+}

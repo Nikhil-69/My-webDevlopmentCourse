@@ -1,0 +1,11 @@
+.content{
+    border-top: 4px solid black;
+    display: inline-block;
+    width: 70%;
+}
+.form{
+    border-top: 4px solid black;
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+}

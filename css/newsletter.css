@@ -1,0 +1,28 @@
+*{
+    background-color:olive;
+    margin: 4px;
+    padding: 4px;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+section{
+    border: 6px solid black;
+    width: 75vh;
+    height: 90vh;
+
+}
+img{
+    float: left;
+}
+div{
+    border-bottom: 2px solid black;
+    
+}
+.p2{
+    clear: left;
+}
+section{
+    overflow-y: scroll;
+}
