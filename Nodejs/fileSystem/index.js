@@ -1,6 +1,6 @@
 // fs import file system functions so we can use read and write oprations
-const fs = require("fs");
 //path function helps us to give path
+const fs = require("fs");
 const path = require("path");
 //path.join join path of file and __dirname gives path to the current directory
 const p1 = path.join(__dirname, "files/abc.txt");
